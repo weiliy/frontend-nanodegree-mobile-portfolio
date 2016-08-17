@@ -53,3 +53,25 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+## Notes:
+
+### PageSpeed Score
+
+Main Changes: 
+
+- Optimize images: The PageSpeed provide the optimized picture to download. I just replace the original images.
+- Minify CSS/HTML/JavaScript: Using gulp-htmlmin, gulp-csso and gulp-uglify minify CSS, HTML and JavaScritp with gulp.
+- Eliminate render-blocking JavaScript and CSS in above-the-fold content
+  - Make analytics.js as async
+  - Inline CSS
+
+Other Chnages:
+- Update Google Analytics ID
+- Gulp automation flow: minify files and watch changes.
+
+### Getting Rid of Jank
+
+### Documentation
+
+
