@@ -72,6 +72,29 @@ Other Chnages:
 
 ### Getting Rid of Jank
 
-### Documentation
+Main Changes:
 
+- Frame Rate
+  - Fix FSL issue in updatePosition in `views/js/main.js`
+  - Update CSS: .mover, add transform: tanslateZ(0) and backface-visibility: hidden
+  - Reduce pizza number, init hte pizzaNum by the height of windows
 
+- Computational Efficiency
+  - Using % width installed of pixel
+
+Other Changes
+
+- Using gulp to add css prefix
+
+### Build
+
+I run the code on my server on cloud, so I didnot use the ngrok. 
+
+checkout this repo and cd to the project direcotry
+
+  ```bash
+  npm install`
+  gulp
+  cd build
+  python -m SimpleHTTPServer
+  ```

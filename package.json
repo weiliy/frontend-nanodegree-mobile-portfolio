@@ -16,13 +16,15 @@
     "url": "https://github.com/weiliy/frontend-nanodegree-mobile-portfolio/issues"
   },
   "devDependencies": {
-    "gulp": "~3.9.1",
-    "gulp-rename": "~1.2.2",
-    "gulp-uglify": "~2.0.0",
-    "gulp-load-plugins": "~1.2.4",
-    "critical": "~0.7.3",
-    "gulp-csso": "~2.0.0",
-    "gulp-htmlmin": "~2.0.0",
-    "gulp-clean": "~0.3.2"
+    "gulp": "*",
+    "gulp-uglify": "*",
+    "gulp-csso": "*",
+    "gulp-htmlmin": "*",
+    "gulp-clean": "*",
+    "jshint": "*",
+    "gulp-jshint": "*",
+    "gulp-sequence": "*",
+    "gulp-postcss": "*",
+    "gulp-autoprefixer": "*"
   }
 }
